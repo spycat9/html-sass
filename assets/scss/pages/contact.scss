@@ -1,0 +1,31 @@
+.banner{
+	.author-image{
+		img{
+			border: 5px solid #FFF;
+			margin: auto;
+		}
+	}
+	h1{
+		text-transform: uppercase;
+		font-weight: 800;
+		color: #FFF;
+	}
+}
+.get-in-touch{
+	padding: 100px 0;
+	h2{
+		margin-bottom: 50px;
+	}
+	form{
+		input, textarea{
+			padding: 20px 12px !important;
+		}
+		button{
+			background: #5e7b3c;
+		    border: none;
+		    border-radius: 0px;
+		    padding: 25px 50px;
+		    color: #FFF;
+		}
+	}
+}

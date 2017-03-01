@@ -1,0 +1,22 @@
+.banner .author-image img {
+  border: 5px solid #FFF;
+  margin: auto; }
+.banner h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #FFF; }
+
+.get-in-touch {
+  padding: 100px 0; }
+  .get-in-touch h2 {
+    margin-bottom: 50px; }
+  .get-in-touch form input, .get-in-touch form textarea {
+    padding: 20px 12px !important; }
+  .get-in-touch form button {
+    background: #5e7b3c;
+    border: none;
+    border-radius: 0px;
+    padding: 25px 50px;
+    color: #FFF; }
+
+/*# sourceMappingURL=contact.css.map */

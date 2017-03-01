@@ -1,0 +1,143 @@
+body {
+  font-size: 16px !important;
+  font-family: 'Lora', serif !important;
+  letter-spacing: 1px; }
+
+.top-header {
+  width: 100%;
+  height: 25px;
+  background-color: #5e7b3c; }
+
+h2 {
+  text-transform: uppercase; }
+
+p {
+  line-height: 24px; }
+
+.navbar {
+  text-transform: uppercase !important;
+  border-radius: 0px !important;
+  background-color: #111111;
+  border: none;
+  margin-bottom: 0 !important; }
+  .navbar .navbar-collapse {
+    padding: 0; }
+    .navbar .navbar-collapse ul li {
+      margin: 0 0 0 124px; }
+      .navbar .navbar-collapse ul li a {
+        color: #FFF;
+        padding: 20px 0; }
+      .navbar .navbar-collapse ul li a:hover {
+        color: #5e7b3c !important; }
+    .navbar .navbar-collapse ul .active a {
+      color: #5e7b3c !important;
+      background: none !important; }
+    .navbar .navbar-collapse ul li:first-child {
+      margin: 0; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .navbar .navbar-collapse ul li {
+        margin: 0 0 0 84px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .navbar .navbar-collapse ul li {
+        margin: 0 0 0 40px; } }
+    @media (max-width: 767px) {
+      .navbar .navbar-collapse ul li {
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
+  @media (max-width: 767px) {
+    .navbar .navbar-collapse {
+      padding: 0 20px; } }
+
+.buy-the-book a, .read-more a, .say-hello a {
+  padding: 25px 50px;
+  background-color: #5e7b3c;
+  color: #FFF;
+  font-size: 18px;
+  text-transform: uppercase; }
+.buy-the-book a:hover, .read-more a:hover, .say-hello a:hover {
+  text-decoration: none; }
+
+.hvr-bounce-to-right {
+  /* display: inline-block !important; */ }
+
+.hvr-bounce-to-right:before {
+  background: #111 !important; }
+
+.banner {
+  padding: 100px 0; }
+  @media (max-width: 375px) {
+    .banner .banner-book img {
+      display: block;
+      max-width: 100%;
+      height: auto; } }
+  @media (max-width: 990px) {
+    .banner .banner-book {
+      text-align: center; } }
+  .banner .book-title {
+    color: #FFF;
+    text-transform: uppercase; }
+    .banner .book-title h1 {
+      font-weight: 700;
+      font-size: 48px;
+      padding-bottom: 5px;
+      background: url(../../images/double-border.png) no-repeat;
+      background-position: bottom;
+      background-position-x: 0px; }
+    .banner .book-title h3 {
+      font-weight: 500;
+      margin-bottom: 25px; }
+  @media (max-width: 990px) {
+    .banner .book-title {
+      text-align: center; }
+      .banner .book-title h1 {
+        background-position: bottom;
+        background-position-x: center; } }
+
+footer .social-nav {
+  background: #111;
+  padding: 50px 0; }
+  footer .social-nav .social-media li {
+    display: inline-block; }
+    footer .social-nav .social-media li a i {
+      font-size: 48px; }
+  footer .social-nav .social-media .facebook-icon a i {
+    color: #3b5998; }
+  footer .social-nav .social-media .tumblr-icon a i {
+    color: #35465c; }
+  footer .social-nav .social-media .twitter-icon a i {
+    color: #55acee; }
+  footer .social-nav .social-media .googleplus-icon a i {
+    color: #dc4e41; }
+  footer .social-nav .social-media .pinterest-icon a i {
+    color: #bd081c; }
+  footer .social-nav .social-media li:after {
+    content: '';
+    margin-right: 5px; }
+  footer .social-nav .navigation {
+    text-transform: uppercase; }
+    footer .social-nav .navigation li {
+      display: inline-block; }
+      footer .social-nav .navigation li a {
+        color: #FFF;
+        font-size: 12px; }
+      footer .social-nav .navigation li a:hover {
+        text-decoration: none;
+        color: #5e7b3c !important; }
+    footer .social-nav .navigation li:after {
+      content: '\f111';
+      font-family: FontAwesome;
+      font-size: 6px;
+      color: #FFF;
+      margin: 0 10px;
+      vertical-align: middle; }
+    footer .social-nav .navigation li:last-child:after {
+      content: ''; }
+    @media (max-width: 450px) {
+      footer .social-nav .navigation li:after {
+        margin: 0 5px; } }
+footer .copyright {
+  background-color: #5e7b3c;
+  padding: 10px 0;
+  color: #FFF; }
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,17 @@
+.banner .paperback {
+  border: 2px solid #FFF;
+  padding: 25px 0;
+  width: 250px;
+  text-align: center; }
+  .banner .paperback p {
+    margin-bottom: 0; }
+@media (max-width: 992px) {
+  .banner .paperback {
+    margin: auto; } }
+
+.order-page {
+  padding: 100px 0; }
+  .order-page h2 {
+    margin-bottom: 50px; }
+
+/*# sourceMappingURL=order.css.map */
